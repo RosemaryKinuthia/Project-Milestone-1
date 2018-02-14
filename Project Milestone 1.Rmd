@@ -1,0 +1,46 @@
+---
+title: "Project Milestone 1"
+author: "Rosemary Kinuthia"
+date: "2/13/2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+#Nursing Trends in Kenya
+
+###Email address: rkinuth@emory.edu
+
+  Through my advisor/mentor, I have been fortunate enough to gain access to data on all the nursing students trained and nurses that have been registered in Kenya. I am therefore interested in analysing the trends of the nursing profession in the country. My motivation for undertaking this particular project is for both personal and professional reasons. On a personal level, I am curious about the nursing situation in Kenya.  I am originally from Nairobi, Kenya and I plan to return to Kenya after I complete my PhD, thus, I am trying to get familiar with the state of the nursing profession in preparation for my return. Given that I do not have professional working experience in Kenya, I am uncertain of what the nursing “terrain” looks like. It will be helpful for me to gain this knowledge to help inform potential career paths and areas of research I could pursue in the country.  On a professional level, working on this project will provide me with research experience as a doctoral student and broaden my knowledge on human resources for health in Kenya. I am hoping that my dissertation question will be in this area of study, therefore, this experience will also provide the opportunity to help me narrow down my dissertation research question. 
+
+  I recently completed my Doctorate of Nursing Practice (DNP) degree  in Health Systems Leadership at Emory University. During my DNP studies we were introduced to human resources for health (i.e. the healthcare workforce) as an essential pillar for health systems. In fact, in one of the DNP courses I took, a former classmates and I looked at the association between 30-Day pneumonia readmissions and nursing shortage among Medicare patients in the United States. However, it wasn’t my primary area of interest, so I did not pursue it further. At the time I was primarily interested in an HIV/AIDS line of research and was particularly focused on improving HIV outcomes in underserved populations. It wasn’t until I joined the PhD that I truly got interested in healthcare workforce issues.  My advisor’s area of expertise is in developing and implementing regulatory human resource information systems that provide data for health workforce management, policy development, and program planning in Africa. She is currently working on workforce projects in Zambia and Kenya. Working with her is therefore a perfect fit and I am primarily involved in the Kenya project. I am passionate about improving health outcomes in developing nations, therefore, working on this project gives me the opportunity to explore potential routes to improve health by focusing on workforce issues. I am still interested in HIV so I am exploring ways to “marry” my two interests. Currently I am contemplating exploring the association between workforce shortages/models of care delivery and HIV outcomes at PEPFAR funded clinics in Kenya for my dissertation. 
+
+  The primary focal question I am trying to answer For my final project assignment in the Big Data course, is: What are the nursing workforce trends in Kenya? Analyzing and understanding the trends may be helpful in identifying gaps between nursing education and registration. Though I have only skimmed the data, I am hypothesizing that there is a significant difference between the number of nurses that are educated and those that actually register.  Currently, the country suffers from a chronic shortage of nurse providers, therefore, this data may be useful in development of recruitment and retention strategies. 
+  
+  Last Thursday I received the data from the project’s data analyst who is based in Nairobi, Kenya. My advisor connected me with her and she emailed me 2 Microsoft Excel files: nurses ever trained and nursing students ever registered. Upon skimming the data, it does not appear that there are any missing data, therefore, I do not anticipate that I will have to do any extensive data cleaning / reshaping / extraction. I also do not expect to do any calculations in my data. The data primarily consists of nominal data: data of birth, gender, home county, institution name, district, county, type of nursing course and commencement date.  I have saved the Excel files in Google Drive and it may be accessed via the following links:
+  
+###Nurses ever registered:
+https://drive.google.com/file/d/1d9W50qS-BYVBGF5QOyJv1qXyjQkF9JdB/view?usp=sharing. 
+
+###Nursing students trained: 
+https://drive.google.com/file/d/1_K_GmpW56W7kDnOCOSD06_i7i3LsLsUj/view?usp=sharing.
+
+To explore the data I will implement univariate exploratory analysis methods in R to obtain summary statistics. I also plan to display the data using histograms and/or stem or leaf plots. To analyze the data I am considering conducting a regression regression analysis, however, this may change as I work to increase my statistical knowledge and skills.  I am currently enrolled in the Biostatistics II course at Rollins, therefore, I am still familiarizing myself with statistical methods for trend analysis. I think a time series scatter plot may be a good way to visualize the results after I conduct the trend analysis. 
+To ensure that I stay on track for this project, I will use the NRSG 741: Big Data project milestones due dates as a guide for my data analysis and writing timeline. Below is a summary table of my proposed activities to keep me on schedule:
+
+
+|Weekly task/goal			 			                  |Deadline 		  |Status       |
+|-------------------------------------------- |:-----------:  |:-----------:|
+|Finalize & submit proposal (Milestone 1) 		| 02/14/2018 		| Complete    |
+|Finalize research question 					        | 02/21/2018 		| In progress |
+|Acquire data 							                  | 02/09/2018 		| Complete    |
+|Clean data							                      | 02/28/2018    |             |
+|Explore data   							                | 03/15/2018    |             |
+|Draft working prototype 					            | 03/21/2018    |             | 
+|Finalize & submit prototype (Milestone 2) 	  | 03/28/2018    |             |
+|Complete data analysis	 					            | 04/04/2018    |             |
+|Draft  manuscript 						                | 04/18/2018    |             |
+|Finalize and submit manuscript (Milestone 3) | 05/02/2018    |             | 
+|Present project 						                  | 05/02/2018		|             |	
+
+The link to the Rmd file created in my GitHub repo is https://github.com/RosemaryKinuthia/Project-Milestone-1.git located at which was typed in to the Rmarkdown file as  [https://github.com/RosemaryKinuthia/Project-Milestone-1.git](https://github.com/RosemaryKinuthia/Project-Milestone-1.git).
